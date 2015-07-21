@@ -48,9 +48,9 @@
     </properties>
 
     <distributionManagement>
+        <!-- <url>https://github.com/home1-public/mvn-repo/raw/mvn-repo/releases</url> -->
         <repository>
             <id>releases</id>
-            <!-- <url>https://home1-public.github.com/home1-public/mvn-repo/raw/master/releases</url> -->
             <url>file://${user.home}/ws/home1-public/mvn-repo/releases</url>
         </repository>
         <snapshotRepository>
@@ -161,7 +161,7 @@
         <dependency>
             <groupId>org.nlpcn</groupId>
             <artifactId>nlp-lang</artifactId>
-            <version>0.2</version>
+            <version>0.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
