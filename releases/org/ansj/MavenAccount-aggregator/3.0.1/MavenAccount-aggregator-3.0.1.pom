@@ -64,20 +64,10 @@
     </distributionManagement>
     <repositories>
         <repository>
-            <id>home1-public-mvn-repo-releases</id>
-            <url>https://raw.githubusercontent.com/home1-public/mvn-repo/mvn-repo/releases</url>
+            <id>home1-public-mvn-repo</id>
+            <url>https://raw.githubusercontent.com/home1-public/mvn-repo/mvn-repo/</url>
             <releases>
                 <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>home1-public-mvn-repo-snapshots</id>
-            <url>https://raw.githubusercontent.com/home1-public/mvn-repo/mvn-repo/snapshots</url>
-            <releases>
-                <enabled>false</enabled>
             </releases>
             <snapshots>
                 <enabled>true</enabled>

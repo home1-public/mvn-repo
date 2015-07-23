@@ -60,10 +60,20 @@
     </distributionManagement>
     <repositories>
         <repository>
-            <id>home1-public-mvn-repo</id>
-            <url>https://raw.githubusercontent.com/home1-public/mvn-repo/mvn-repo/</url>
+            <id>home1-public-mvn-repo-releases</id>
+            <url>https://raw.githubusercontent.com/home1-public/mvn-repo/mvn-repo/releases</url>
             <releases>
                 <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>home1-public-mvn-repo-snapshots</id>
+            <url>https://raw.githubusercontent.com/home1-public/mvn-repo/mvn-repo/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
             </releases>
             <snapshots>
                 <enabled>true</enabled>
@@ -186,6 +196,11 @@
             <groupId>org.nlpcn</groupId>
             <artifactId>nlp-lang</artifactId>
             <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
